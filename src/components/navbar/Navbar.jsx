@@ -33,9 +33,9 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <a href="/">Sign in</a>
+            <a href="/">ເຂົ້າສູ່ລະບົບ</a>
             <a href="/" className="register">
-              Sign up
+              ລົງທະບຽນ
             </a>
           </>
         )}
@@ -47,12 +47,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <a href="/">ຄົ້ນຫາຂໍ້ມູນ</a>
+          <a href="/">ການຂຶ້ນບັນຊີ</a>
+          <a href="/">ການຫັນສິດໃຊ້</a>
+          <a href="/">ການເຊົ່າແລະສໍາປະທານ</a>
+          <a href="/">ເຂົ້າສູ່ລະບົບ</a>
+          <a href="/">ລົງທະບຽນ</a>
         </div>
       </div>
     </nav>

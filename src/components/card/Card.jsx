@@ -20,11 +20,11 @@ function Card({ item }) {
           <div className="features">
             <div className="feature">
               <img src="/bed.png" alt="" />
-              <span>{item.bedroom} bedroom</span>
+              <span>{item.bedroom} ອາຄານ</span>
             </div>
             <div className="feature">
               <img src="/bath.png" alt="" />
-              <span>{item.bathroom} bathroom</span>
+              <span>{item.bathroom} ສາງສິນຄ້າ</span>
             </div>
           </div>
           <div className="icons">

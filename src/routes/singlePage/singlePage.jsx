@@ -30,7 +30,7 @@ function SinglePage() {
       </div>
       <div className="features">
         <div className="wrapper">
-          <p className="title">General</p>
+          <p className="title">ຂໍ້ມູນທົ່ວໄປ</p>
           <div className="listVertical">
             <div className="feature">
               <img src="/utility.png" alt="" />

@@ -4,64 +4,50 @@ function Filter() {
   return (
     <div className="filter">
       <h1>
-        Search results for <b>London</b>
+        ຜົນຄົ້ນຫາຂໍ້ມູນສໍາລັບ: <b>ນະຄອນຫຼວງວຽງຈັນ</b>
       </h1>
       <div className="top">
         <div className="item">
-          <label htmlFor="city">Location</label>
-          <input
-            type="text"
-            id="city"
-            name="city"
-            placeholder="City Location"
-          />
+          <label htmlFor="city">ສະຖານທີ່ຕັ້ງ</label>
+          <input type="text" id="city" name="city" placeholder="ທີ່ຕັ້ງເມືອງ" />
         </div>
       </div>
       <div className="bottom">
         <div className="item">
-          <label htmlFor="type">Type</label>
+          <label htmlFor="type">ປະເພດ:</label>
           <select name="type" id="type">
-            <option value="">any</option>
-            <option value="buy">Buy</option>
-            <option value="rent">Rent</option>
+            <option value="">ທັງໝົດ</option>
+            <option value="buy">ຂຶ້ນບັນຊີ</option>
+            <option value="rent">ອະນຸຍາດສິດໃຊ້</option>
+            <option value="rent">ຫັນສິດໃຊ້</option>
+            <option value="rent">ເຊົ່າແລະສໍາປະທານ</option>
           </select>
         </div>
         <div className="item">
-          <label htmlFor="property">Property</label>
+          <label htmlFor="property">ຊັບສິນທີ່ຕິດພັນ</label>
           <select name="property" id="property">
-            <option value="">any</option>
-            <option value="apartment">Apartment</option>
-            <option value="house">House</option>
-            <option value="condo">Condo</option>
-            <option value="land">Land</option>
+            <option value="">ທັງໝົດ</option>
+            <option value="apartment">ເຮືອນ</option>
+            <option value="house">ອາຄານ</option>
+            <option value="condo">ສາງສິນຄ້າ</option>
           </select>
         </div>
         <div className="item">
-          <label htmlFor="minPrice">Min Price</label>
+          <label htmlFor="minPrice">ລາຄາຕໍ່າສຸດ</label>
           <input
             type="number"
             id="minPrice"
             name="minPrice"
-            placeholder="any"
+            placeholder="ທັງໝົດ"
           />
         </div>
         <div className="item">
-          <label htmlFor="maxPrice">Max Price</label>
-          <input
-            type="text"
-            id="maxPrice"
-            name="maxPrice"
-            placeholder="any"
-          />
+          <label htmlFor="maxPrice">ລາຄາສູງສຸດ</label>
+          <input type="text" id="maxPrice" name="maxPrice" placeholder="ທັງໝົດ" />
         </div>
         <div className="item">
-          <label htmlFor="bedroom">Bedroom</label>
-          <input
-            type="text"
-            id="bedroom"
-            name="bedroom"
-            placeholder="any"
-          />
+          <label htmlFor="bedroom">ອື່ນໆ</label>
+          <input type="text" id="bedroom" name="bedroom" placeholder="ທັງໝົດ" />
         </div>
         <button>
           <img src="/search.png" alt="" />
