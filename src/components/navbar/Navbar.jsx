@@ -11,12 +11,12 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <span>StateLand</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/">ຄົ້ນຫາຂໍ້ມູນ</a>
+        <a href="/">ການຂຶ້ນບັນຊີ</a>
+        <a href="/">ການຫັນສິດໃຊ້</a>
+        <a href="/">ການເຊົ່າແລະສໍາປະທານ</a>
       </div>
       <div className="right">
         {user ? (
@@ -25,10 +25,10 @@ function Navbar() {
               src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt=""
             />
-            <span>John Doe</span>
+            <span>Mitsamay</span>
             <Link to="/profile" className="profile">
-              <div className="notification">3</div>
-              <span>Profile</span>
+              <div className="notification">2</div>
+              <span>ຂໍ້ມູນຜູ້ນໍາໃຊ້</span>
             </Link>
           </div>
         ) : (
