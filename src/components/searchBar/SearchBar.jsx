@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./searchBar.scss";
 
-const types = ["ດິນລັດ", "ດິນຫັນສິດ"];
+const types = ["ດິນລັດ", "ດິນຫັນສິດ", "ການເຊົ່າແລະສໍາປະທານ"];
 
 function SearchBar() {
   const [query, setQuery] = useState({
@@ -35,14 +35,14 @@ function SearchBar() {
           name="minPrice"
           min={0}
           max={10000000}
-          placeholder="ສິດໃຊ້"
+          placeholder=""
         />
         <input
           type="number"
           name="maxPrice"
           min={0}
           max={10000000}
-          placeholder="ເຊົ່າແລະສໍາປະທານ"
+          placeholder=""
         />
         <button>
           <img src="/search.png" alt="" />
